@@ -1,6 +1,17 @@
 # NgPolymerApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
+The project integrates Polymer paper-elements. The changes made:
+- bower_components are installed into static assets directiory indicated by .bowerrc file (src/assets/bower_components)
+- index.html loads necessary polyfills + adds imports for used elements
+- main.ts bootstraps angular app on WebComponentsReady event 
+- the bootstraping module (app.module.ts) uses CUSTOM_ELEMENTS_SCHEMA schema
+
+## How to run
+- clone the repo
+- install npm deps (npm i)
+- install bower deps (bower i) - assuming that bower was installed globally
+- run the app (ng serve) - assuming that @angular/cli was installed globally
 
 ## Development server
 
