@@ -1,0 +1,13 @@
+{
+  "name": "ng-polymer-app",
+  "description": "",
+  "main": "",
+  "authors": [
+    "tszewcow <tomek.szewcow@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tszewcow/ng-polymer-app",
+  "dependencies": {
+    "paper-elements": "^1.0.7"
+  }
+}
